@@ -1,9 +1,14 @@
 plugins {
     id 'java'
+    id "application"
 }
+
+mainClassName = 'br.unisinos.CodificacaoApplication'
 
 group 'br.unisinos'
 version '1.0-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
